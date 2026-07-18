@@ -1,21 +1,12 @@
-/* Dark Theme with Lime Green Accents */
-
 :root {
-    /* Pure Black & Gray Theme Colors */
     --bg-primary: #0d0d0d;
     --bg-secondary: #1a1a1a;
     --bg-tertiary: #262626;
-    
-    /* Text Colors */
     --text-primary: #e0e0e0;
     --text-secondary: #a0a0a0;
-    
-    /* Accent Colors */
     --accent-lime: #00ff41;
     --accent-lime-dark: #00cc34;
     --accent-lime-light: #33ff66;
-    
-    /* Borders */
     --border-color: #3a3a3a;
 }
 
@@ -42,7 +33,6 @@ body {
     padding: 0 20px;
 }
 
-/* Navbar */
 .navbar {
     background-color: var(--bg-secondary);
     padding: 1rem 0;
@@ -84,7 +74,6 @@ body {
     text-shadow: 0 0 8px rgba(0, 255, 65, 0.5);
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
     padding: 6rem 0;
@@ -105,7 +94,6 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Buttons */
 .btn {
     display: inline-block;
     padding: 0.8rem 2rem;
@@ -130,7 +118,6 @@ body {
     transform: translateY(-2px);
 }
 
-/* Main Content */
 main {
     min-height: calc(100vh - 200px);
 }
@@ -154,7 +141,6 @@ section p {
     margin-bottom: 1rem;
 }
 
-/* Projects Section */
 .projects {
     background-color: var(--bg-primary);
 }
@@ -192,7 +178,6 @@ section p {
     font-size: 0.95rem;
 }
 
-/* About Section */
 .about {
     background-color: var(--bg-secondary);
 }
@@ -209,7 +194,6 @@ section p {
     text-shadow: 0 0 10px rgba(0, 255, 65, 0.4);
 }
 
-/* Footer */
 footer {
     background-color: var(--bg-tertiary);
     padding: 2rem 0;
@@ -218,7 +202,6 @@ footer {
     color: var(--text-secondary);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
         gap: 1rem;
