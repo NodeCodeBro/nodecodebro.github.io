@@ -137,11 +137,6 @@ section p {
 
 .matrix-link {
     display: inline-block;
-    transition: transform 0.3s ease;
-}
-
-.matrix-link:hover {
-    transform: scale(1.1);
 }
 
 .matrix-icon {
@@ -168,6 +163,14 @@ footer {
     text-align: center;
     border-top: 1px solid var(--accent-lime);
     color: var(--text-secondary);
+}
+
+.footer-icon {
+    width: 64px;
+    height: 64px;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
 }
 
 .footer-copyright {
