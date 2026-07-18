@@ -1,10 +1,10 @@
 /* Dark Theme with Lime Green Accents */
 
 :root {
-    /* Dark Theme Colors */
-    --bg-primary: #0a0e27;
-    --bg-secondary: #151932;
-    --bg-tertiary: #1e2139;
+    /* Black & Gray Theme Colors */
+    --bg-primary: #000000;
+    --bg-secondary: #1a1a1a;
+    --bg-tertiary: #2d2d2d;
     
     /* Text Colors */
     --text-primary: #e0e0e0;
@@ -16,7 +16,7 @@
     --accent-lime-light: #33ff66;
     
     /* Borders */
-    --border-color: #2a2d3a;
+    --border-color: #404040;
 }
 
 * {
