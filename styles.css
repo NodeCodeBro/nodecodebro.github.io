@@ -98,11 +98,11 @@ section p {
     background-color: var(--bg-secondary);
 }
 
-.matrix-link {
+.link {
     display: inline-block;
 }
 
-.matrix-icon {
+.link-icon {
     width: 64px;
     height: 64px;
     display: block;
