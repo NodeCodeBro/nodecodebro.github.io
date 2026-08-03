@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The NodeCodium</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>The NodeCodium</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="links" class="links">
+            <div class="container">
+                <h2>Links</h2>
+                <div id="linklist">
+                    <a href="https://github.com/NodeCodeBro/" class="link">
+                        <img src="link-icons/github.png" alt="GitHub" class="link-icon">
+                    </a>
+                    <a href="https://nodecodebro.itch.io/" class="link">
+                        <img src="link-icons/itch-io.png" alt="itch.io" class="link-icon">
+                    </a>
+                    <a href="https://matrix.to/#/#thenodecodium:matrix.org/" class="link">
+                        <img src="link-icons/matrix.png" alt="Matrix" class="link-icon">
+                    </a>
+                    <a href="https://odysee.com/@nodecodebro/" class="link">
+                        <img src="link-icons/odysee.png" alt="Odysee" class="link-icon">
+                    </a>
+                    <a href="https://suno.com/@nodecodebro" class="link">
+                        <img src="link-icons/suno.png" alt="Suno" class="link-icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <img src="nodecodebro.png" alt="" class="footer-icon">
+            <p class="footer-text">© 2026 NodeCodeBro, All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<script>
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const list = document.getElementById('linklist');
+    const links = Array.from(list.querySelectorAll('a.link'));
+    shuffle(links);
+    links.forEach(link => list.appendChild(link));
+  });
+</script>
